@@ -584,12 +584,15 @@
         this.$router.push({path:'/pms/updateProduct',query:{id:row.id}});
       },
       handleShowProduct(index,row){
+        // TODO:显示商品详情
         console.log("handleShowProduct",row);
       },
       handleShowVerifyDetail(index,row){
+        // TODO:显示审核详情
         console.log("handleShowVerifyDetail",row);
       },
       handleShowLog(index,row){
+        // TODO:日志
         console.log("handleShowLog",row);
       },
       updatePublishStatus(publishStatus, ids) {
